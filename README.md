@@ -1,4 +1,4 @@
-# Lucrarea noastra unii cu altii, si noi toti cu Dumnezeu: Noisy-CIFAR-100
+# Lucrarea noastra unii cu altii...: Noisy-CIFAR-100
 
 ## Wandb links:
 - https://wandb.ai/gheorghitastefana-alexandru-ioan-cuza-university-iasi/training-cifar100-noisy?nw=nwusergheorghitastefana
