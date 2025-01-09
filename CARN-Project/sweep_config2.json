@@ -1,0 +1,39 @@
+{
+    "method": "grid",
+    "metric": {
+        "name": "val_accuracy",
+        "goal": "maximize"
+    },
+    "parameters": {
+        "dataset": {"value": "CIFAR100"},
+        "data_path": {"value": "/kaggle/input/fii-atnn-2024-project-noisy-cifar-100/fii-atnn-2024-project-noisy-cifar-100"},
+        "model_name": {"values": [
+             "eff_ns"]},
+        "num_classes": {"value": 100},
+        "batch_size": {"values": [128]},
+        "num_epochs": {"values": [50]},
+        "optimizer_config": {
+        "values": [
+             {"optimizer": "adam", "learning_rate": 0.0001}
+        ]
+    },
+        "weight_decay": {"value": 0.0005},
+        "momentum": {"value": 0.9},
+        "nesterov": {"value": "True"},
+        "patience": {"value": 5},
+        "stop_mode": {"value": "max"},
+        "min_delta": {"value": 0.0001},
+        "scheduler": {"values": ["cosineannealingwarmrestarts"]},
+        "t_max": {"values": [100]},
+        "eta_min": {"value": 1e-5},
+        "augmentation_scheme": {"values": ["randaugment"]},
+        "use_cutmix": {"values": ["True"]},
+        "use_mixup": {"values": ["True"]},
+        "alpha": {"value": 0.5},
+        "t_0": {"value": 10},
+        "t_mult": {"value": 2},
+        "warmup": {"value": 5},
+        "patience_early_stopping": {"value": 10},
+        "pretrained": {"value": "True"}
+    }
+}

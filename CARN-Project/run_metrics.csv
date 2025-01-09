@@ -1,0 +1,28 @@
+Run Name,Best Accuracy,Training Time to Best Accuracy (s)
+EfficientNet b0, Adam 0.001,  basic,63.72,698.5306702
+EfficientNet b0, AdamW 0.001, RandAugment ",65.16,218.4641871
+EfficientNet b0, AdamW 0.01, randAugment",41.88,494.8982798
+EfficientNet b0, AdamW 0.001, RandAugment, warmup 5 (restul 3),63.69,142.6191227
+EfficientNet b0, AdamW 0.001, Combined , warmup 5 (restul 3),56.89,166.5666957
+EfficientNet b3, AdamW 0.01, randAugment,63.61,171.9918772
+no_mixup_optimizer-adamw_lr-0.0003_scheduler-cosineannealinglr_aug-randaugment_model-eff_ns,70.91,674.0172506
+optimizer-adamw_lr-0.0003_scheduler-reducelronplateau_aug-randaugment_model-eff_ns,71.43,1081.9798666
+10_warmup_optimizer-adamw_lr-0.0003_scheduler-reducelronplateau_aug-randaugment_model-eff_ns,72.78,1128.2820059
+5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,73.35,1856.1259046
+0.3smooth_5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,72.65,1757.2902106
+5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-sim,,
+5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-sim,,
+5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-sim,,
+5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-sim,,
+5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,74.18,1837.439759
+alpha1_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,73.81,1660.6274105
+self_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,72.15,861.3334365
+self_5_warmup_optimizer-adamw_lr-0.0003_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,71.8,747.4619559
+128_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,72.62,854.6719658
+diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_model-eff_ns,74.32,3318.19019
+diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-autoaugment_model-eff_ns,73.76,2030.5537651
+diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_numops_3_model-eff_ns,73.1,1654.4441875
+diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_numops_1_model-eff_ns,74.46,2589.0618501
+alpha_0.5_diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_numops_1_model-eff_ns,74.73,1798.477164
+alpha_0.5_diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-autoaugment_numops_1_model-eff_ns,74.27,2015.5381842
+aaa_alpha_0.5_diff_normal_5_warmup_optimizer-adamw_lr-0.0001_scheduler-cosineannealingwarmrestarts_aug-randaugment_numops_1_model-eff_ns,74.44,2318.0254152
