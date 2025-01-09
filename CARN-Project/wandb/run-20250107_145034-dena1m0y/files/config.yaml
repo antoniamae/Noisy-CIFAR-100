@@ -1,0 +1,86 @@
+_wandb:
+    value:
+        cli_version: 0.19.0
+        m: []
+        python_version: 3.12.8
+        t:
+            "1":
+                - 1
+                - 41
+                - 49
+                - 55
+                - 63
+            "2":
+                - 1
+                - 41
+                - 49
+                - 55
+                - 63
+            "3":
+                - 1
+                - 2
+                - 14
+                - 17
+                - 23
+                - 55
+            "4": 3.12.8
+            "5": 0.19.0
+            "8":
+                - 3
+                - 5
+            "10":
+                - 3
+            "12": 0.19.0
+            "13": windows-amd64
+alpha:
+    value: 0.8
+augmentation_scheme:
+    value: randaugment
+batch_size:
+    value: 128
+data_path:
+    value: /kaggle/input/fii-atnn-2024-project-noisy-cifar-100/fii-atnn-2024-project-noisy-cifar-100
+dataset:
+    value: CIFAR100
+eta_min:
+    value: 1e-05
+min_delta:
+    value: 0.0001
+model_name:
+    value: eff_ns
+momentum:
+    value: 0.9
+nesterov:
+    value: "True"
+num_classes:
+    value: 100
+num_epochs:
+    value: 50
+optimizer_config:
+    value:
+        learning_rate: 0.0001
+        optimizer: adamw
+patience:
+    value: 5
+patience_early_stopping:
+    value: 10
+pretrained:
+    value: "True"
+scheduler:
+    value: cosineannealingwarmrestarts
+stop_mode:
+    value: max
+t_0:
+    value: 10
+t_max:
+    value: 100
+t_mult:
+    value: 2
+use_cutmix:
+    value: "True"
+use_mixup:
+    value: "True"
+warmup:
+    value: 5
+weight_decay:
+    value: 0.0005

@@ -1,0 +1,54 @@
+wandb_version: 1
+
+alpha:
+  value: 1
+augmentation_scheme:
+  value: combined_resize2
+batch_size:
+  value: 64
+data_path:
+  value: /kaggle/input/fii-atnn-2024-project-noisy-cifar-100/fii-atnn-2024-project-noisy-cifar-100
+dataset:
+  value: CIFAR100
+eta_min:
+  value: 1.0e-05
+min_delta:
+  value: 0.0001
+model_name:
+  value: resnet18
+momentum:
+  value: 0.9
+nesterov:
+  value: true
+num_classes:
+  value: 100
+num_epochs:
+  value: 100
+optimizer_config:
+  value:
+    learning_rate: 0.001
+    optimizer: adamw
+patience:
+  value: 3
+patience_early_stopping:
+  value: 10
+pretrained:
+  value: true
+scheduler:
+  value: cosineannealinglr
+stop_mode:
+  value: max
+t_0:
+  value: 10
+t_max:
+  value: 100
+t_mult:
+  value: 2
+use_cutmix:
+  value: true
+use_mixup:
+  value: true
+warmup:
+  value: 5
+weight_decay:
+  value: 0.0005

@@ -1,0 +1,39 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.12.8",
+  "startedAt": "2025-01-06T11:47:16.821220Z",
+  "program": "D:\\Facultate\\CARN\\CARN-Project\\sweep_train2.py",
+  "codePath": "sweep_train2.py",
+  "email": "gheorghitastefana@gmail.com",
+  "root": "D:\\Facultate\\CARN\\CARN-Project",
+  "host": "DESKTOP-E2T2T2D",
+  "username": "Stefy",
+  "executable": "D:\\Facultate\\CARN\\CARN-Project\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "sweep_train2.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "960178941952",
+      "used": "94428413952"
+    }
+  },
+  "memory": {
+    "total": "34231816192"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3060 Ti",
+      "memoryTotal": "8589934592",
+      "cudaCores": 4864,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.7"
+}
